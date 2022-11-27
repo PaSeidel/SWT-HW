@@ -23,6 +23,7 @@ public class TeamComposite implements OlympicComponent{
     public void printNAthletes() {
         System.out.println(name);
         for (OlympicComponent team : children) {
+            System.out.print("\t");
             team.printNAthletes();
         }
     }
@@ -31,6 +32,7 @@ public class TeamComposite implements OlympicComponent{
     public void printNGoldMedals() {
         System.out.println(name);
         for (OlympicComponent team : children) {
+            System.out.print("\t");
             team.printNGoldMedals();
         }
     }

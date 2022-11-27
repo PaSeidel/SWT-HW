@@ -9,7 +9,9 @@ public class Main {
 
         TeamComposite asia = new TeamComposite("Asia Team");
         TeamComposite europe = new TeamComposite("Europe Team");
+        teams.addChild(asia);
         teams.addChild(new TeamLeaf("Africa Team", 34, 18));
+        teams.addChild(europe);
         teams.addChild(new TeamLeaf("South America Team", 41, 23));
 
         TeamComposite china = new TeamComposite("China Team");
@@ -20,12 +22,12 @@ public class Main {
         europe.addChild(germany);
         europe.addChild(italy);
 
-        TeamComposite chinaWomen = new TeamComposite("Women's Team");
-        TeamComposite chinaMen = new TeamComposite("Men's Team");
-        TeamComposite gerWomen = new TeamComposite("Women's Team");
-        TeamComposite gerMen = new TeamComposite("Men's Team");
-        TeamComposite italyWomen = new TeamComposite("Women's Team");
-        TeamComposite italyMen = new TeamComposite("Men's Team");
+        TeamComposite chinaWomen = new TeamComposite("China Women's Team");
+        TeamComposite chinaMen = new TeamComposite("China Men's Team");
+        TeamComposite gerWomen = new TeamComposite("Germany Women's Team");
+        TeamComposite gerMen = new TeamComposite("Germany Men's Team");
+        TeamComposite italyWomen = new TeamComposite("Italy Women's Team");
+        TeamComposite italyMen = new TeamComposite("Italy Men's Team");
         china.addChild(chinaWomen);
         china.addChild(chinaMen);
         germany.addChild(gerWomen);

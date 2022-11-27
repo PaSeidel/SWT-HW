@@ -18,12 +18,12 @@ public class TeamLeaf implements OlympicComponent{
 
     @Override
     public void printNAthletes() {
-        System.out.printf("Team: %s, Number of Athletes: %d%n", name, nAthletes);
+        System.out.printf("Team: %s, Number of Athletes: %d\n", name, nAthletes);
     }
 
     @Override
     public void printNGoldMedals() {
-        System.out.printf("Team: %s, Number of Gold Medals: %d", name, nGoldMedals);
+        System.out.printf("Team: %s, Number of Gold Medals: %d\n", name, nGoldMedals);
     }
 
     public int getNumberOfAthletes() {
