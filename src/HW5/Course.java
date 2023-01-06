@@ -28,7 +28,7 @@ public class Course {
 
     }
     
-    // Test comment for Sonar Lint
+    // Test comment for Sonarcloud Trigger
     public void setMaxCap(int max) {
         this.maxCapacity = max;
     }
