@@ -27,7 +27,8 @@ public class Course {
     public void apply(TA ta) {
 
     }
-
+    
+    // Test comment for Sonar Lint
     public void setMaxCap(int max) {
         this.maxCapacity = max;
     }
